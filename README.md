@@ -102,11 +102,26 @@ bun dev
 You can also run NextBeats using Docker:
 
 ```bash
+# Clone the repository:
+git clone https://github.com/btahir/next-beats.git
+cd next-beats
+
 # Build the Docker image
 docker build -t next-beats .
 
 # Run the container
 docker run -p 3000:3000 next-beats
+```
+
+Or using docker compose:
+
+```bash
+# Clone the repository:
+git clone https://github.com/btahir/next-beats.git
+cd next-beats
+
+# Run the Docker Compose file
+docker compose up -d
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to start vibing! 🎧
